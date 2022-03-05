@@ -63,6 +63,8 @@ void	ft_process(t_args args, pthread_mutex_t *forks)
 	if (the_sophists == NULL || philo_id == NULL)
 		return ;
 	ft_threads(the_sophists, args.nb, philo_id);
+	free(philo_id);
+	free(the_sophists);
 	pthread_mutex_destroy(&shared.write);
 	pthread_mutex_destroy(&shared.stop);
 }
