@@ -1,0 +1,6 @@
+Script started on Mon Mar 14 20:38:38 2022
+command: ../philo 1 200 200 200
+^D1		0	has taken a fork
+201		0	died
+
+Script done on Mon Mar 14 20:38:38 2022

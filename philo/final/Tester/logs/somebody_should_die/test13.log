@@ -1,0 +1,11 @@
+Script started on Mon Mar 14 20:38:55 2022
+command: ../philo 4 200 210 200
+^D1		1	has taken a fork
+1		1	has taken a fork
+1		1	is eating
+1		3	has taken a fork
+1		3	has taken a fork
+1		3	is eating
+201		0	died
+
+Script done on Mon Mar 14 20:38:55 2022
